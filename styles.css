@@ -1,0 +1,58 @@
+.card {
+    margin: auto;
+    padding: 15px;
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* font-family: '', sans-serif; */
+    background-color: blueviolet;
+    /* background-image: url("ironman4.jpg"); */
+
+}
+
+h3 {
+    margin: 0 0 15px 0;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.image {
+    margin: 15px auto;
+    width: 350pk;
+    height: 350px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+#description {
+    font-style: italic;
+}
+
+#list-items {
+    list-style: none;
+    padding-left: 0;
+}
+
+#list-items span {
+    font-weight: bold;
+}
+
+.indent {
+    padding-left: 50px;
+}
