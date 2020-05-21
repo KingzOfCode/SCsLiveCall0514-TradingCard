@@ -1,14 +1,20 @@
 .card {
+    /* margin auto will make the margins equal on each side */
     margin: auto;
     padding: 15px;
     width: 350px;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    /* font-family: '', sans-serif; */
-    background-color: blueviolet;
-    /* background-image: url("ironman4.jpg"); */
-
+    /* curve your borders with border radius */
+    border-radius: 20px;
+    font-family: 'Assistant', sans-serif;
+    color: rgb(106, 5, 201);
+    /* *** need to figure out how to do the opacity for the background image ONLY */
+    opacity: 1; background-image: url(NASASun.jpg); 
+        /* background-image: url("NASASun.jpg"); */
+    /* blueviolet */
+    /* C:\Users\Owner\Downloads\Affinty Designer\iconic-fonts\FONTS */
 }
+
 
 h3 {
     margin: 0 0 15px 0;
@@ -23,22 +29,23 @@ h3 {
     width: 350pk;
     height: 350px;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 200px;
     overflow: hidden;
 }
 
 .image img {
     width: 100%;
-    height: auto;
+    height: auto;    
 }
 
-.info {
+/* this made a box under the image
+ .info {
     margin: auto;
     padding: 10px;
     border: 1px solid;
     border: 1px solid #ddd;
     background-color: #fff;
-}
+} */
 
 #description {
     font-style: italic;
@@ -54,5 +61,5 @@ h3 {
 }
 
 .indent {
-    padding-left: 50px;
+    padding-left: 150px;
 }
