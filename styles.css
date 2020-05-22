@@ -3,13 +3,13 @@
     margin: auto;
     padding: 15px;
     width: 350px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(56, 5, 104);
     /* curve your borders with border radius */
     border-radius: 20px;
     font-family: 'Assistant', sans-serif;
-    color: rgb(236, 159, 16);
+    color: white
     /* *** need to figure out how to do the opacity for the background image ONLY */
-    opacity: 1; background-image: url(NASA\ sun.jpg); 
+    opacity: 1; background-image: url(SUN.png); 
         /* background-image: url("NASASun.jpg"); */
     /* blueviolet */
     /* C:\Users\Owner\Downloads\Affinty Designer\iconic-fonts\FONTS */
@@ -21,7 +21,7 @@ h3 {
     padding: 5px 10px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: rgb(235, 212, 13);
 }
 
 .image {
